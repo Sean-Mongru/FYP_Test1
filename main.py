@@ -21,7 +21,7 @@ def equalize_histogram_color(img):
 	img = cv2.cvtColor(img_yuv, cv2.COLOR_YUV2BGR)
 	return img
 i = 0
-folder = ("C:\\Users\\SeanM\\Source\\Repos\\Stitcher_Method\\Stitching_Folder2")
+folder = ("C:\\Users\\SeanM\\Source\\Repos\\Stitcher_Method\\Stitching_Folder")
 #folder = ("C:\\Users\\SeanM\\Source\\Repos\\Stitcher_Method\\Stitching_Folder\\Dense Reconstruction.nvm.cmvs\\00\\visualize")
 for filename in os.listdir(folder):
     img = cv2.imread(os.path.join(folder,filename))
