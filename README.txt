@@ -1,0 +1,1 @@
+The main files in use are main which calls get_sift_homography as well as stitch_pictures. The other modules are testing modules for other instances. 
