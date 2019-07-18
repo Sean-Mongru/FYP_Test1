@@ -7,7 +7,7 @@ import numpy as np
 from numpy import linalg
 import python3_utils as utils
 import time
-import Stitcher_Method as stitch
+#import Stitcher_Method as stitch
 import gc #Garbage Collector
 import operator
 from PIL import Image
